@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Apr, 2021, 10:13:46 PM
+    Author     : bisha
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@400;700&family=Ubuntu:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato:ital";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato:ital";
+}
+
+.navbar-brand {
+  font-family: "Pacifico";
+  font-family: 40px;
+  color: #2c6399 !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: #2c6399 !important;
+}
+
+.active .nav-link {
+  color: #2c6399 !important;
+}
+
+.site-content {
+  background-image: url("https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site-title,
+.site-desc {
+  color: black;
+  font-family: "Righteous";
+}
+
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+
+.site-desc {
+  font-size: 14px;
+  padding-left: 15%;
+  margin-bottom: 40%;
+}
+
+.section-1 .heading-1 {
+  margin-top: 8%;
+}
+
+.section-1 .heading-2 {
+  margin-bottom: 2%;
+  font-size: 39px;
+}
+
+.section-1 .para-1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.section-1 .card-text,
+.para-1 {
+  color: rgba(0, 0, 0, 0.59);
+}
+.section-1 {
+  margin-bottom: 8%;
+}
+
+/*Section 2*/
+
+/*to make the scrolling background effect*/
+/*Resize the background image to cover the entire container*/
+.section-2 .container-fluid {
+  background-image: url("https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+  margin-top: 10%;
+  margin-bottom: 4%;
+  font-family: "Righteous";
+  width: 80%;
+  color: whitesmoke;
+}
+
+.section-2 .para {
+  width: 80%;
+  font-family: "Ubuntu";
+  color: whitesmoke;
+  margin-bottom: 7%;
+}
+
+.section-2 .btn {
+  margin-bottom: 15%;
+  width: 30%;
+  padding-left: 2%;
+}
+
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+hr.style3 {
+  border-top: 1px dashed #8c8b8b;
+}
+
+.blogs {
+  background-color: #f5f6f3;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 25px;
+}
+
+.blogs .blogs-img {
+  padding-top: 2%;
+  margin-left: 12%;
+  padding-bottom: 2%;
+}
+
+.blogs .blogs-text {
+  padding-top: 5%;
+  background-color: #f5f6f3;
+  min-height: 100px;
+  margin-left: 8%;
+  margin-right: 13%;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 25px;
+}
+
+.notes .notes-img {
+  padding-top: 2%;
+  margin-left: 6%;
+  padding-bottom: 2%;
+  margin-right: 13%;
+}
+
+.notes .notes-text {
+  padding-top: 5%;
+  min-height: 100px;
+  margin-left: 12%;
+  margin-right: 4%;
+}
+
+.qa {
+  background-color: #f5f6f3;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 25px;
+}
+
+.qa .qa-img {
+  padding-top: 2%;
+  margin-left: 12%;
+  padding-bottom: 2%;
+}
+
+.qa .qa-text {
+  padding-top: 5%;
+  background-color: #f5f6f3;
+  min-height: 100px;
+  margin-left: 8%;
+  margin-right: 13%;
+}
+
+

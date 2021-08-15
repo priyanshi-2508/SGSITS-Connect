@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Apr, 2021, 1:14:07 PM
+    Author     : jatin
+*/
+
+body{
+   
+}
+
+.primary-background{
+    background:#2196f3 !important;
+}
+/**/
+.site-content{
+  background-image: url("https://images.pexels.com/photos/34578/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.blog_form{
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 2px solid #2c6399 ;
+}
+
+hr.style-two {
+    border: 0;
+    height: 25px;
+    background-image: url("https://www.formget.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2014/12/type_3.png.webp");
+    background-repeat: no-repeat;
+}

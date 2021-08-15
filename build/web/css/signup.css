@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@400;700&family=Ubuntu:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato:ital";
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url("../images/pexels-dominika-roseclay-1036841.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 670px;
+}
+
+.signup .signup-box {
+  margin-top: 50px;
+  margin-left: 40%;
+  width: 320px;
+}
+
+.signup-box p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.signup-box input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.signup .special {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+}
+
+.signup-box .submit {
+  border: none;
+  outline: none;
+  height: 40px;
+  /* background: #fb2525; */
+  font-size: 18px;
+  border-radius: 20px;
+}

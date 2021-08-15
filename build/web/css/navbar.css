@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Apr, 2021, 1:29:21 PM
+    Author     : jatin
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Pacifico&family=Righteous&family=Roboto+Condensed:wght@400;700&family=Ubuntu:wght@700&display=swap");
+.navbar-brand {
+  font-family: "Pacifico";
+  font-family: 40px;
+  color: #2c6399 !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: "Roboto Condensed";
+}
+
+.nav-link:hover {
+  color: #2c6399 !important;
+}
+
+.active .nav-link {
+  color: #2c6399 !important;
+}
+
